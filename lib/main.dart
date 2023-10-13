@@ -1,3 +1,4 @@
+import 'package:auth_app/widget/auth/auth_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Anixart',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        scaffoldBackgroundColor: Colors.black,
         useMaterial3: true,
       ),
-      home: const Text('Flutter Demo Home Page'),
+      home: const AuthWiget(),
     );
   }
 }
