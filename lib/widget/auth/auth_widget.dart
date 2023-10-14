@@ -18,7 +18,11 @@ class AuthWiget extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   // ignore: prefer_const_literals_to_create_immutables
                   children: [
-                    Image.asset("images/logo.png",width: 100, height: 150,),
+                    Image.asset(
+                      "images/logo.png",
+                      width: 100,
+                      height: 150,
+                    ),
                     const Text('Anixart',
                         style: TextStyle(fontSize: 24, color: Colors.white)),
                     const SizedBox(height: 5),
@@ -102,12 +106,13 @@ class AuthWiget extends StatelessWidget {
                                 onPressed: () {},
                                 style: ElevatedButton.styleFrom(
                                     backgroundColor: Colors.black,
+                                    foregroundColor: Colors.black,
                                     side: BorderSide(color: Colors.grey)),
                                 child: Row(
                                   children: [
                                     Image.asset('images/vk.png'),
                                     Text(
-                                      "Вконтакте",
+                                      "  Вконтакте",
                                       style: TextStyle(color: Colors.white),
                                     ),
                                   ],
@@ -123,12 +128,13 @@ class AuthWiget extends StatelessWidget {
                                 onPressed: () {},
                                 style: ElevatedButton.styleFrom(
                                     backgroundColor: Colors.black,
+                                    foregroundColor: Colors.black,
                                     side: BorderSide(color: Colors.grey)),
                                 child: Row(
                                   children: [
                                     Image.asset('images/google.png'),
                                     Text(
-                                      "Google",
+                                      "  Google",
                                       style: TextStyle(color: Colors.white),
                                     ),
                                   ],
